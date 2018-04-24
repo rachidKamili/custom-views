@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CustomViews</string>
+
+    <string name="Roboto_Bold">roboto_bold</string>
+    <string name="Roboto_Medium">roboto_medium</string>
+    <string name="Roboto_Light">roboto_light</string>
+    <string name="Roboto_Regular">roboto_regular</string>
+    <string name="Roboto_Thin">roboto_thin</string>
+    <string name="Roboto_Italic">roboto_italic</string>
+
+</resources>

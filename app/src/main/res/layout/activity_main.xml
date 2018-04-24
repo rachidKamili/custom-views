@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <med.kamili.rachid.customviews.views.CustomLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <med.kamili.rachid.customviews.views.Rectangle
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="141dp"
+            app:fillColor="@android:color/holo_orange_light" />
+
+        <med.kamili.rachid.customviews.views.Rectangle
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            app:fillColor="@android:color/black" />
+
+        <med.kamili.rachid.customviews.views.FontText
+            android:text="This is a test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:styleFont="Roboto_Italic"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_margin="120dp"/>
+
+        <med.kamili.rachid.customviews.views.FontText
+            android:text="Another test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:styleFont="Roboto_Bold"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_margin="200dp"/>
+
+    </med.kamili.rachid.customviews.views.CustomLayout>
+
+</LinearLayout>
